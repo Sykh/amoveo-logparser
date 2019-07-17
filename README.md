@@ -11,6 +11,7 @@ Little helper to filter through the amoveo logfiles, since all my nodes are on V
 
 3. Add the logfiles, the easiest way to do this is by mounting them
    * cd /var/www/html/amoveo-logparser
+   * mkdir files
    * mount --bind ~/amoveo/_build/prod/rel/amoveo_core/log files/
 
 4. Access the page via your brower, open http://your-ip/amoveo-logparser
