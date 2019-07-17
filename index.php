@@ -48,7 +48,7 @@ $i++;
 }
 fclose($fn);
 
-echo "<p>Logfile ".$logfiles[$_GET['logfile']]." from $startTime to till $endTime</p>";
+echo "<p>Logfile ".$logfiles[$_GET['logfile']]." from $startTime till $endTime</p>";
 foreach ($errors as $file => $liste) {
 	echo count($liste)." errors in <a href=\"?logfile=".$_GET['logfile']."&filter=$file\">$file</a><br>";
 }
